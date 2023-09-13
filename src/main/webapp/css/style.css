@@ -1,0 +1,145 @@
+header {
+    height: 150px;
+    border-radius: 5px;
+    background: #ccccff;
+}
+
+#top-image {
+    height: 130px;
+    width: 130px;
+    top: 20px;
+    background: #6699ff;
+    position: absolute;
+    left: 5%;
+    border-radius: 5px;
+}
+
+#user-panel {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    padding: 10px;
+    background: #9999ff;
+    border-radius: 5px;
+}
+
+footer {
+    height: 60px;
+    background: #6184aa;
+    border-radius: 0 0 5px 5px;
+    vertical-align: bottom;
+}
+
+footer div {
+    padding-top: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+footer span {
+    margin-right: 15px;
+}
+
+#main {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main .leftAside p {
+    width: 100%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+#main .leftAside h3 {
+    margin: 2% 0 0 2%;
+    width: 96%;
+    padding: 5px 0 5px 0;
+    border-radius: 5px 5px 0 0;
+    background: #76a5fc;
+    text-align: center;
+}
+
+.entity-list {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 0 0 5px 5px;
+    background: #76a5fc;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.text-article {
+    padding: 5px;
+    font-size: 15px;
+    background: #cce6fc;
+}
+
+#main article .fotter-article {
+    height: 23px;
+    background: #8babce;
+    border-radius: 0 0 5px 5px;
+    padding: 3px;
+}
+
+#main article .date-article, .read {
+    float: right;
+    margin-left: 10px;
+}
+
+.entity-list tr td {
+    text-align: center;
+}
+
+thead {
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+}
+
+.list-section {
+    flex: 2 1 auto;
+    background: #ccccff;
+    border-radius: 5px;
+    height: 100%;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-section {
+    background: #ccccff;
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+option {
+    padding: 1px 2px;
+}
